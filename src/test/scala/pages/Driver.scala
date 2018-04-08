@@ -34,7 +34,6 @@ object Driver {
     options.setProfile(profile)
     options.setAcceptInsecureCerts(true)
     val driver = new FirefoxDriver(options)
-    //    println(s"Browser version is ${capabilities.getVersion}")
     driver
   }
 

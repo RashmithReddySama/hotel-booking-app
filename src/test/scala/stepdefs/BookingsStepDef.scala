@@ -3,36 +3,20 @@ package stepdefs
 import cucumber.api.DataTable
 import cucumber.api.scala.{EN, ScalaDsl}
 import org.openqa.selenium.By
-import org.openqa.selenium.support.ui.{ExpectedConditions, Select}
 import org.scalatest.Matchers
-import org.scalatest.selenium.WebBrowser
 import pages.BasePage
 
 import scala.collection.JavaConversions._
 
-class BookingsStepDef extends WebBrowser with BasePage with ScalaDsl with EN with Matchers {
-
-  var rowIdList = scala.collection.mutable.MutableList[String]()
+class BookingsStepDef extends BasePage with ScalaDsl with EN with Matchers {
 
   Given("""^I am on the hotel booking form page$""") { () =>
-    go to ("http://hotel-test.equalexperts.io/")
-    pageTitle shouldBe "Hotel booking form"
+    go to baseUrl
+    pageTitle shouldBe homePageTitle
   }
 
   When("""^I create the following bookings$""") { (dataTable: DataTable) =>
-    for (data: java.util.Map[String, String] <- dataTable.asMaps(classOf[String], classOf[String])) {
-      var name = data.get("First name")
-      textField("firstname").value = data.get("First name")
-      textField("lastname").value = data.get("Surname")
-      textField("totalprice") value = data.get("Price")
-      val select = new Select(driver.findElement(By.id("depositpaid")))
-      select.selectByVisibleText(data.get("Deposit"))
-      textField("checkin") value = data.get("Check in")
-      textField("checkout") value = data.get("Check in")
-      click on (xpath("//*[@value=' Save ']"))
-      refreshPage()
-      rowIdList += driver.findElement(By.xpath(s"//div[@id='bookings']/div/div/p[contains(text(),'$name')]/ancestor::div[@class='row']")).getAttribute("id")
-    }
+    createBooking(dataTable)
   }
 
   Then("""^I should see the bookings created on the list of bookings$""") { (dataTable: DataTable) =>
