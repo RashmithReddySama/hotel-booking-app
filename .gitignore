@@ -1,0 +1,7 @@
+.*
+!.gitignore
+.idea
+/.idea_modules
+.target
+target/
+

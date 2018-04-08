@@ -1,25 +1,27 @@
 package pages
 
+import java.lang
 import java.util.concurrent.TimeUnit
 
 import org.openqa.selenium.{By, WebDriver}
 import org.openqa.selenium.interactions.Actions
-import org.openqa.selenium.support.ui.{FluentWait, Wait}
+import org.openqa.selenium.support.ui.{ExpectedConditions, FluentWait, Wait}
 
 import scala.util.Try
 
 trait BasePage {
 
-  implicit val driver = Driver.createDriver()
-  val waitForPageToBELoaded = driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS)
+  implicit val driver: WebDriver = Driver.createDriver()
 
-  def clickOn(locator:By) = {
+  val waitForPageToBELoaded: WebDriver.Timeouts = driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS)
+
+  def clickOn(locator: By): Unit = {
     driver.findElement(locator).click()
   }
 
-  def moveToElement(locator:By) = {
+  def moveToElement(locator: By): Unit = {
     val element = driver.findElement(locator)
-    var actions : Actions = new Actions(driver)
+    var actions: Actions = new Actions(driver)
     actions.moveToElement(element).click().perform()
   }
 
@@ -27,7 +29,11 @@ trait BasePage {
     .withTimeout(10, TimeUnit.SECONDS)
     .pollingEvery(1, TimeUnit.SECONDS)
 
-  sys addShutdownHook{
+  def refreshPage(): Unit = driver.navigate().refresh()
+
+  def waitForElementInvisible(locator: By): lang.Boolean = fluentWait.until(ExpectedConditions.invisibilityOfElementLocated(locator))
+
+  sys addShutdownHook {
     Try(driver.quit())
   }
 }

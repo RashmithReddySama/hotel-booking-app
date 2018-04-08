@@ -1,13 +1,10 @@
 package stepdefs
 
-import java.util.concurrent.TimeUnit
-
 import cucumber.api.DataTable
 import cucumber.api.scala.{EN, ScalaDsl}
-import org.openqa.selenium.support.ui.{ExpectedConditions, FluentWait, Select, Wait}
-import org.openqa.selenium.{By, WebDriver}
+import org.openqa.selenium.By
+import org.openqa.selenium.support.ui.{ExpectedConditions, Select}
 import org.scalatest.Matchers
-import org.scalatest.concurrent.Eventually
 import org.scalatest.selenium.WebBrowser
 import pages.BasePage
 
@@ -15,9 +12,7 @@ import scala.collection.JavaConversions._
 
 class BookingsStepDef extends WebBrowser with BasePage with ScalaDsl with EN with Matchers {
 
-  var rouIdList = scala.collection.mutable.MutableList[String]()
-
-  def waitForElementInvisible(locator: By) = fluentWait.until(ExpectedConditions.invisibilityOfElementLocated(locator))
+  var rowIdList = scala.collection.mutable.MutableList[String]()
 
   Given("""^I am on the hotel booking form page$""") { () =>
     go to ("http://hotel-test.equalexperts.io/")
@@ -35,29 +30,29 @@ class BookingsStepDef extends WebBrowser with BasePage with ScalaDsl with EN wit
       textField("checkin") value = data.get("Check in")
       textField("checkout") value = data.get("Check in")
       click on (xpath("//*[@value=' Save ']"))
-      driver.navigate().refresh()
-      rouIdList += driver.findElement(By.xpath(s"//div[@id='bookings']/div/div/p[contains(text(),'$name')]/ancestor::div[@class='row']")).getAttribute("id")
+      refreshPage()
+      rowIdList += driver.findElement(By.xpath(s"//div[@id='bookings']/div/div/p[contains(text(),'$name')]/ancestor::div[@class='row']")).getAttribute("id")
     }
   }
 
   Then("""^I should see the bookings created on the list of bookings$""") { (dataTable: DataTable) =>
     var index = 0
     for (data: java.util.Map[String, String] <- dataTable.asMaps(classOf[String], classOf[String])) {
-      driver.findElement(By.xpath(s"//div[@id='${rouIdList.get(index).getOrElse()}']/div[1]/p")).getText shouldBe (data.get("First name"))
+      driver.findElement(By.xpath(s"//div[@id='${rowIdList.get(index).getOrElse()}']/div[1]/p")).getText shouldBe (data.get("First name"))
       index = index + 1
     }
   }
 
   When("""^I delete recently created bookings$""") { (dataTable: DataTable) =>
-    for (id <- rouIdList) {
+    for (id <- rowIdList) {
       click on (xpath(s"//div[@id='$id']//div[@class='col-md-1']//input[@type='button']"))
-      driver.navigate().refresh()
+      refreshPage()
     }
   }
 
   Then("""^the bookings should be deleted from the list of bookings$""") { () =>
-    for (id <- rouIdList) {
-      driver.navigate().refresh()
+    for (id <- rowIdList) {
+      refreshPage()
       waitForElementInvisible(By.xpath(s"//div[@id='${id}']/div[1]/p"))
     }
   }
