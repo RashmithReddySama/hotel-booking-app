@@ -91,24 +91,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "BookingsStepDef.scala:26"
+  "location": "BookingsStepDef.scala:22"
 });
 formatter.result({
-  "duration": 1437617599,
+  "duration": 1078848422,
   "status": "passed"
 });
 formatter.match({
-  "location": "BookingsStepDef.scala:32"
+  "location": "BookingsStepDef.scala:27"
 });
 formatter.result({
-  "duration": 3496771645,
+  "duration": 2156724840,
   "status": "passed"
 });
 formatter.match({
-  "location": "BookingsStepDef.scala:50"
+  "location": "BookingsStepDef.scala:43"
 });
 formatter.result({
-  "duration": 62369390,
+  "duration": 59876987,
   "status": "passed"
 });
 formatter.scenario({
@@ -155,24 +155,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "BookingsStepDef.scala:26"
+  "location": "BookingsStepDef.scala:22"
 });
 formatter.result({
-  "duration": 230546023,
+  "duration": 105204861,
   "status": "passed"
 });
 formatter.match({
-  "location": "BookingsStepDef.scala:59"
+  "location": "BookingsStepDef.scala:51"
 });
 formatter.result({
-  "duration": 711921975,
+  "duration": 522608522,
   "status": "passed"
 });
 formatter.match({
-  "location": "BookingsStepDef.scala:67"
+  "location": "BookingsStepDef.scala:58"
 });
 formatter.result({
-  "duration": 20391328463,
+  "duration": 20266947015,
   "status": "passed"
 });
 });

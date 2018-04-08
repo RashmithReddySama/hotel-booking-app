@@ -13,11 +13,7 @@ import pages.BasePage
 
 import scala.collection.JavaConversions._
 
-class BookingsStepDef extends WebBrowser with Eventually with BasePage with ScalaDsl with EN with Matchers {
-
-  val fluentWait: Wait[WebDriver] = new FluentWait[WebDriver](driver)
-    .withTimeout(10, TimeUnit.SECONDS)
-    .pollingEvery(1, TimeUnit.SECONDS)
+class BookingsStepDef extends WebBrowser with BasePage with ScalaDsl with EN with Matchers {
 
   var rouIdList = scala.collection.mutable.MutableList[String]()
 
@@ -28,9 +24,7 @@ class BookingsStepDef extends WebBrowser with Eventually with BasePage with Scal
     pageTitle shouldBe "Hotel booking form"
   }
 
-
   When("""^I create the following bookings$""") { (dataTable: DataTable) =>
-
     for (data: java.util.Map[String, String] <- dataTable.asMaps(classOf[String], classOf[String])) {
       var name = data.get("First name")
       textField("firstname").value = data.get("First name")
@@ -44,13 +38,11 @@ class BookingsStepDef extends WebBrowser with Eventually with BasePage with Scal
       driver.navigate().refresh()
       rouIdList += driver.findElement(By.xpath(s"//div[@id='bookings']/div/div/p[contains(text(),'$name')]/ancestor::div[@class='row']")).getAttribute("id")
     }
-    print("@@@@@@@@@@@@@@ " + rouIdList)
   }
 
   Then("""^I should see the bookings created on the list of bookings$""") { (dataTable: DataTable) =>
     var index = 0
     for (data: java.util.Map[String, String] <- dataTable.asMaps(classOf[String], classOf[String])) {
-
       driver.findElement(By.xpath(s"//div[@id='${rouIdList.get(index).getOrElse()}']/div[1]/p")).getText shouldBe (data.get("First name"))
       index = index + 1
     }
@@ -61,7 +53,6 @@ class BookingsStepDef extends WebBrowser with Eventually with BasePage with Scal
       click on (xpath(s"//div[@id='$id']//div[@class='col-md-1']//input[@type='button']"))
       driver.navigate().refresh()
     }
-
   }
 
   Then("""^the bookings should be deleted from the list of bookings$""") { () =>

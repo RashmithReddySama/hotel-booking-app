@@ -12,25 +12,25 @@
         "steps": [
           {
             "result": {
-              "duration": 1437617599,
+              "duration": 1078848422,
               "status": "passed"
             },
             "line": 5,
             "name": "I am on the hotel booking form page",
             "match": {
-              "location": "BookingsStepDef.scala:26"
+              "location": "BookingsStepDef.scala:22"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3496771645,
+              "duration": 2156724840,
               "status": "passed"
             },
             "line": 6,
             "name": "I create the following bookings",
             "match": {
-              "location": "BookingsStepDef.scala:32"
+              "location": "BookingsStepDef.scala:27"
             },
             "rows": [
               {
@@ -71,13 +71,13 @@
           },
           {
             "result": {
-              "duration": 62369390,
+              "duration": 59876987,
               "status": "passed"
             },
             "line": 10,
             "name": "I should see the bookings created on the list of bookings",
             "match": {
-              "location": "BookingsStepDef.scala:50"
+              "location": "BookingsStepDef.scala:43"
             },
             "rows": [
               {
@@ -113,25 +113,25 @@
         "steps": [
           {
             "result": {
-              "duration": 230546023,
+              "duration": 105204861,
               "status": "passed"
             },
             "line": 16,
             "name": "I am on the hotel booking form page",
             "match": {
-              "location": "BookingsStepDef.scala:26"
+              "location": "BookingsStepDef.scala:22"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 711921975,
+              "duration": 522608522,
               "status": "passed"
             },
             "line": 17,
             "name": "I delete recently created bookings",
             "match": {
-              "location": "BookingsStepDef.scala:59"
+              "location": "BookingsStepDef.scala:51"
             },
             "rows": [
               {
@@ -157,13 +157,13 @@
           },
           {
             "result": {
-              "duration": 20391328463,
+              "duration": 20266947015,
               "status": "passed"
             },
             "line": 21,
             "name": "the bookings should be deleted from the list of bookings",
             "match": {
-              "location": "BookingsStepDef.scala:67"
+              "location": "BookingsStepDef.scala:58"
             },
             "keyword": "Then "
           }

@@ -9,8 +9,11 @@ object Driver {
   lazy val isMac: Boolean = System.getProperty("os.name").startsWith("Mac")
 
   if (isMac) {
-    System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver")
-    System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY,"./drivers/chromedriver")
+    System.setProperty("webdriver.gecko.driver", "./drivers/firefox/geckodriverMac")
+    System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY,"./drivers/chrome/chromedriverMac")
+  } else {
+    System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, "./drivers/chrome/chromedriver")
+    System.setProperty("webdriver.gecko.driver", "./drivers/firefox/geckodriver")
   }
 
   val browser = System.getProperty("browser", "chrome")
@@ -21,7 +24,7 @@ object Driver {
   }
 
   def createFirefoxDriver(): WebDriver = {
-    System.setProperty("webdriver.gecko.driver", "./drivers/firefox/geckodriver")
+    System.setProperty("webdriver.gecko.driver", "./drivers/firefox/geckodriverMac")
     val options: FirefoxOptions = new FirefoxOptions()
     System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true")
     System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "/dev/null")
