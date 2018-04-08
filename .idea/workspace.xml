@@ -2,259 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79e7a321-3d78-4a05-8623-05047da047c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drivers/chromedriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drivers/firefox/geckodriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$04a9b4750d0e0d7d8f04$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$04a9b4750d0e0d7d8f04$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$04a9b4750d0e0d7d8f04.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1b5316510bd625739cc0$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1b5316510bd625739cc0$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1b5316510bd625739cc0.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$70da62dfe57f4faa550e$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$70da62dfe57f4faa550e.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$70da62dfe57f4faa550e.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$a5539a65decf9678efc1$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$a5539a65decf9678efc1$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$a5539a65decf9678efc1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$dd645212cd18ae07cdf4$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$dd645212cd18ae07cdf4$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$dd645212cd18ae07cdf4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/$global/$global/discoveredMainClasses/data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/RunWip.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/pages/BasePage$class.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/pages/BasePage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/pages/Driver$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/pages/Driver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$2$$anonfun$apply$mcV$sp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$3$$anonfun$apply$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$3$$anonfun$apply$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$4$$anonfun$apply$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$4$$anonfun$apply$5$$anonfun$apply$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$4$$anonfun$apply$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$5$$anonfun$apply$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef$$anonfun$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/stepdefs/BookingsStepDef.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/clean/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/discoveredMainClasses/data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/copy-resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=RunWip/test/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__ch_qos_logback_logback_classic_1_1_7_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__ch_qos_logback_logback_core_1_1_7_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_8_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_8_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_8_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_8_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_8_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_code_findbugs_jsr305_1_3_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_code_gson_gson_2_8_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_errorprone_error_prone_annotations_2_0_18_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_guava_guava_23_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_j2objc_j2objc_annotations_1_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_novocode_junit_interface_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_functional_2_11_2_6_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_json_2_11_2_6_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_scala_logging_scala_logging_2_11_3_5_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__commons_codec_commons_codec_1_10_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__commons_logging_commons_logging_1_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__info_cukes_cucumber_core_1_2_5_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__info_cukes_cucumber_html_0_2_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__info_cukes_cucumber_junit_1_2_5_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__info_cukes_cucumber_jvm_deps_1_0_5_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__info_cukes_cucumber_scala_2_11_1_2_5_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__info_cukes_gherkin_2_12_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__joda_time_joda_time_2_9_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__junit_junit_4_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__net_bytebuddy_byte_buddy_1_7_5_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__net_java_dev_jna_jna_4_1_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__net_java_dev_jna_jna_platform_4_1_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_commons_commons_exec_1_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_httpcomponents_httpclient_4_5_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_httpcomponents_httpcore_4_4_6_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_codehaus_mojo_animal_sniffer_annotations_1_14_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_ow2_asm_asm_5_0_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_ow2_asm_asm_analysis_5_0_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_ow2_asm_asm_tree_5_0_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_ow2_asm_asm_util_5_0_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_parboiled_parboiled_core_1_1_7_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_parboiled_parboiled_java_1_1_7_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_pegdown_pegdown_1_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_8_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_8_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_sbt_test_interface_1_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_11_2_2_4_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_api_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_chrome_driver_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_edge_driver_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_firefox_driver_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_ie_driver_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_java_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_opera_driver_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_remote_driver_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_safari_driver_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_support_3_6_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_21_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/hotel-booking-app-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/hotel-booking-app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RunWip.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/build.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$04a9b4750d0e0d7d8f04.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1b5316510bd625739cc0.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$a5539a65decf9678efc1.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$dd645212cd18ae07cdf4.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/hotel-booking-app-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/hotel-booking-app-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-compile-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-compile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-docs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-optional.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-provided.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-runtime-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-runtime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-scala-tool.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-sources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-test-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-hotel-booking-app-build-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/ivy-report.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/ivy-report.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/features/createBooking.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/RunWip.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/pages/BasePage.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/pages/Driver.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/stepdefs/BookingsStepDef.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber/formatter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hotel-booking-app$sources_2.11/1.0/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hotel-booking-app$sources_2.11/1.0/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hotel-booking-app_2.11/1.0/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hotel-booking-app_2.11/1.0/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-compile-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-compile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-docs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-optional.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-provided.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-runtime-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-runtime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-scala-tool.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-sources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-test-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app$sources_2.11-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-compile-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-compile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-docs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-optional.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-provided.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-runtime-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-runtime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-scala-tool.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-sources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-test-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hotel-booking-app_2.11-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ivy-report.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ivy-report.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/RunWip.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -312,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -334,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePage.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BasePage.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/pages/BasePage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="275">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -383,12 +131,12 @@
         <option value="$PROJECT_DIR$/src/test/scala/utils/Driver.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/pages/Driver.scala" />
         <option value="$USER_HOME$/.ivy2/cache/org.seleniumhq.selenium/selenium-support/jars/selenium-support-3.6.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class" />
-        <option value="$PROJECT_DIR$/src/test/scala/pages/BasePage.scala" />
         <option value="$PROJECT_DIR$/src/test/features/createBooking.feature" />
         <option value="$PROJECT_DIR$/src/test/scala/stepdefs/BookingsStepDef.scala" />
         <option value="$PROJECT_DIR$/RunWip.sh" />
         <option value="$PROJECT_DIR$/runWip.sh" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/test/scala/pages/BasePage.scala" />
       </list>
     </option>
   </component>
@@ -424,6 +172,112 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stepdefs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel-booking-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1100,14 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/pages/BasePage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RunWip.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1136,6 +982,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/pages/BasePage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
