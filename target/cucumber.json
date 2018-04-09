@@ -4,33 +4,33 @@
     "elements": [
       {
         "line": 4,
-        "name": "Create a new booking",
+        "name": "Create new bookings",
         "description": "",
-        "id": "create-and-delete-bookings;create-a-new-booking",
+        "id": "create-and-delete-bookings;create-new-bookings",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1078848422,
+              "duration": 548196585,
               "status": "passed"
             },
             "line": 5,
             "name": "I am on the hotel booking form page",
             "match": {
-              "location": "BookingsStepDef.scala:22"
+              "location": "BookingsStepDef.scala:13"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2156724840,
+              "duration": 2113314777,
               "status": "passed"
             },
             "line": 6,
             "name": "I create the following bookings",
             "match": {
-              "location": "BookingsStepDef.scala:27"
+              "location": "BookingsStepDef.scala:18"
             },
             "rows": [
               {
@@ -71,13 +71,13 @@
           },
           {
             "result": {
-              "duration": 59876987,
+              "duration": 58665042,
               "status": "passed"
             },
             "line": 10,
             "name": "I should see the bookings created on the list of bookings",
             "match": {
-              "location": "BookingsStepDef.scala:43"
+              "location": "BookingsStepDef.scala:22"
             },
             "rows": [
               {
@@ -105,33 +105,33 @@
       },
       {
         "line": 15,
-        "name": "Delete a booking",
+        "name": "Delete bookings",
         "description": "",
-        "id": "create-and-delete-bookings;delete-a-booking",
+        "id": "create-and-delete-bookings;delete-bookings",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 105204861,
+              "duration": 103669552,
               "status": "passed"
             },
             "line": 16,
             "name": "I am on the hotel booking form page",
             "match": {
-              "location": "BookingsStepDef.scala:22"
+              "location": "BookingsStepDef.scala:13"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 522608522,
+              "duration": 476261908,
               "status": "passed"
             },
             "line": 17,
             "name": "I delete recently created bookings",
             "match": {
-              "location": "BookingsStepDef.scala:51"
+              "location": "BookingsStepDef.scala:30"
             },
             "rows": [
               {
@@ -157,13 +157,13 @@
           },
           {
             "result": {
-              "duration": 20266947015,
+              "duration": 20309605741,
               "status": "passed"
             },
             "line": 21,
             "name": "the bookings should be deleted from the list of bookings",
             "match": {
-              "location": "BookingsStepDef.scala:58"
+              "location": "BookingsStepDef.scala:37"
             },
             "keyword": "Then "
           }
@@ -174,11 +174,11 @@
     "description": "",
     "id": "create-and-delete-bookings",
     "keyword": "Feature",
-    "uri": "createBooking.feature",
+    "uri": "createAndDeleteBooking.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@wip"
+        "name": "@suite"
       }
     ]
   }

@@ -1,7 +1,7 @@
-@wip
+@suite
 Feature: Create and Delete Bookings
 
-  Scenario: Create a new booking
+  Scenario: Create new bookings
     Given I am on the hotel booking form page
     When I create the following bookings
       | First name | Surname | Price | Deposit | Check in   | Check out  |
@@ -12,7 +12,7 @@ Feature: Create and Delete Bookings
       | Rashmith   |
       | Sanjana    |
 
-  Scenario: Delete a booking
+  Scenario: Delete bookings
     Given I am on the hotel booking form page
     When I delete recently created bookings
       | First name |

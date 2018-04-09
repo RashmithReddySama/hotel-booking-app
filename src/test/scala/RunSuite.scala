@@ -7,8 +7,8 @@ import org.junit.runner.RunWith
   features = Array("src/test/features"),
   glue = Array("stepdefs"),
   plugin = Array("pretty", "html:target/cucumber", "json:target/cucumber.json"),
-  tags = Array("@wip")
+  tags = Array("@suite")
 )
-class RunWip {
+class RunSuite {
 
 }
