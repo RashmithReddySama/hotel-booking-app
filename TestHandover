@@ -1,0 +1,115 @@
+Test status report = The following types of functional and non functional testing has been performed on the application to-date
+
+* Functional testing
+* Exploratory testing
+* Accessibility testing
+* Security testing
+* Cross Browser testing
+* Performance testing
+
+===================================================================================================================================================
+
+* Functional testing :
+
+Create a booking functionality = Please see the Cucumber tests at src/test/features/createAndDeleteBooking.feature
+Deleta a booking functionality = Please see the Cucumber tests at src/test/features/createAndDeleteBooking.feature
+
+Defects Identified =
+1) The Check out date is allowed to be before Check in date
+
+Steps to Reproduce the Defect
+- Enter first name as "Reddy"
+- Enter surname as "Sam"
+- Enter Price as 19
+- Select Deposit as true
+- Enter Check in date as "2018-05-13"
+- Enter Check out date as "2018-05-10"
+- Click Save
+Then booking gets created with the check out prior to check in date.
+
+2) None of the input fields have any REGEX (This allows the user to enter any characters with any length) - Boundary Value Analysis is not done on any input fields since there was no REGEX.
+3) When the text fields for first name and last name have long strings and when saved then the text on that booking is overlapped
+
+===================================================================================================================================================
+
+* Exploratory testing :
+When I enter the price field with the value of "12.22.22" and click save it does not allow to save but it does not throw any error message either.
+
+===================================================================================================================================================
+
+* Accessibility testing :
+
+Generic test is done using Wave, Chromevox where most of the basic defaults in regards to tags, table headers, broken Arias, missing form labels
+and liners if customers with partial eye related problems use screen reader such as Chromevox are all identified.
+
+By using Wave tool the following bugs have been found :
+    6 x Missing form labels
+    1 x Document language missing
+
+While using Chromevox the tabbing liners are not aligned as per the page movement, it starts with header which is correct but when we press tab
+then the navigation should be to the following heading level 3, but the navigation liner is on the buttons (submit/delete forms).
+
+Further accessibility testing can be done using following tools :
+DRAGON : Customers with multiple sclerosis, tendinitis use DRAGON to reduce manual usage of application
+JAWS : Customers with vision loss, partial blindness use this tool as a screen reader and access our application for bookings
+ZOOMTEXT : This tool is used by low vision users.
+
+There are various other tools for different accessibility users but mostly all the tools are paid. Since the application is customer facing,
+testing the application to WCAG standards is advisable.
+
+===================================================================================================================================================
+
+
+* Security Testing :
+
+The website is unsecure as it starts with http instead of https. Https encrypts the connection to the website so that hackers cannot intercept any of the user data. Switching to Https is highly recommended.
+OWASP ZAP tool is used to perform penetration testing :
+The following different types of scans are done using ZAP
+
+- Active Scan,
+- Spider Scan,
+- Ajax Spider,
+- Fuzz
+
+Active scan which gives all the alerts by parsing the path traversal, cross site scripting, parameter tampering, buffer overflow, etc..
+There are no high security alert, however there is one medium alert in regards to  X-Frame -Options which is not set, fixing this issue is advisable
+depends on the priority. Since the risk is medium the priority is low in terms of bug fixing.
+Manually the app has been tested by sending cross site scripts even though there are no error messages when i enter the script in the empty text fields,
+when i click save , no action is taken or the system is not saving the action which is a sign of secured application. But validation in text fields is advisable for a better application.
+
+===================================================================================================================================================
+
+
+* Cross Browser Testing :
+Browser stack is for cross browser testing.
+The app has been tested in different browsers and the following defects have been found.
+
+The page is totally different with layout and even functions like click buttons not available in older versions of firefox(33.0), IE, etc..
+whereas in chrome, safari browser the application functionality is as expected.
+It is similar situation in Phones, I have tested in IPad and Iphone and identified same issues but no issues identified in landscape or portrait mode.
+
+
+===================================================================================================================================================
+
+
+
+* Performance Testing :
+Using the volumetrics from the business the number of users per second is been determined. Load , Stress , Soak tests are perfomed using the number of users per second.
+Gatling is used to create journeys and inject load to see the applications behavior under that load. Gatling generates a html report with
+clear response time, frequency, latency, journey per second, number of users active etc...
+
+
+===================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
