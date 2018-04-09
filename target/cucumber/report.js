@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("createBooking.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("createAndDeleteBooking.feature");
 formatter.feature({
   "line": 2,
   "name": "Create and Delete Bookings",
@@ -8,15 +8,15 @@ formatter.feature({
   "tags": [
     {
       "line": 1,
-      "name": "@wip"
+      "name": "@suite"
     }
   ]
 });
 formatter.scenario({
   "line": 4,
-  "name": "Create a new booking",
+  "name": "Create new bookings",
   "description": "",
-  "id": "create-and-delete-bookings;create-a-new-booking",
+  "id": "create-and-delete-bookings;create-new-bookings",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -91,31 +91,31 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
+  "location": "BookingsStepDef.scala:13"
+});
+formatter.result({
+  "duration": 548196585,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BookingsStepDef.scala:18"
+});
+formatter.result({
+  "duration": 2113314777,
+  "status": "passed"
+});
+formatter.match({
   "location": "BookingsStepDef.scala:22"
 });
 formatter.result({
-  "duration": 1078848422,
-  "status": "passed"
-});
-formatter.match({
-  "location": "BookingsStepDef.scala:27"
-});
-formatter.result({
-  "duration": 2156724840,
-  "status": "passed"
-});
-formatter.match({
-  "location": "BookingsStepDef.scala:43"
-});
-formatter.result({
-  "duration": 59876987,
+  "duration": 58665042,
   "status": "passed"
 });
 formatter.scenario({
   "line": 15,
-  "name": "Delete a booking",
+  "name": "Delete bookings",
   "description": "",
-  "id": "create-and-delete-bookings;delete-a-booking",
+  "id": "create-and-delete-bookings;delete-bookings",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -155,24 +155,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "BookingsStepDef.scala:22"
+  "location": "BookingsStepDef.scala:13"
 });
 formatter.result({
-  "duration": 105204861,
+  "duration": 103669552,
   "status": "passed"
 });
 formatter.match({
-  "location": "BookingsStepDef.scala:51"
+  "location": "BookingsStepDef.scala:30"
 });
 formatter.result({
-  "duration": 522608522,
+  "duration": 476261908,
   "status": "passed"
 });
 formatter.match({
-  "location": "BookingsStepDef.scala:58"
+  "location": "BookingsStepDef.scala:37"
 });
 formatter.result({
-  "duration": 20266947015,
+  "duration": 20309605741,
   "status": "passed"
 });
 });

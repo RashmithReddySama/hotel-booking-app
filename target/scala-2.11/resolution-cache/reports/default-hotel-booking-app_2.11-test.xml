@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180408214547"/>
+		date="20180409014334"/>
 	<dependencies>
 		<module organisation="org.pegdown" name="pegdown">
 			<revision name="1.6.0" status="release" pubdate="20150918110113" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pegdown.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="51">
